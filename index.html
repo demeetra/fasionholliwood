@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title></title>
+  </head>
+  <style media="screen">
+  @import 'reset.css';
+@font-face {
+    font-family: "tesseract";
+    src: url("../fonts/tesseract.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    }
+    p, h1, h2, h3 {font-family: "tesseract";}
+    body {
+      width: 1280px;
+      margin: 0 auto;
+      background: white;
+      height: 6519px;
+      display: block;
+      position: relative;
+    }
+    body::before{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      /* background: url('images/holliwood.jpg'); */
+      height: 100%;
+      display: block;
+      opacity: .2;
+    }
+    .oblozhka{
+      height: 739px;
+      width: 100%;
+      background: black;
+      display: flex;
+
+    }
+    .oblozhka1{
+      margin-left: 80px;
+      width: 728px;
+      height: 739px;
+      display: inline-block;
+    }
+    h1{font-size: 72px;}
+    h2{font-size: 48px;}
+    h3{font-size: 36px;}
+    p{font-size: 22px;}
+    img{bottom: 0;}
+
+    .oblozhka2{
+      margin-right: 80px;
+      display: inline-block;
+      width: 380px;
+      height: 739px;
+    }
+    section{
+      margin-left: 80px;
+      margin-right: 80px;
+      display: flex;
+    }
+    .one1{
+      display: inline-block;
+    }
+    .one2{
+      width: 726px;
+      display: inline-block;
+      right: 0;
+      padding-top: 120px;
+      padding-left: 155px;
+    }
+    .one2 h3{line-height: 60px;}
+    .one2 p{margin-top: 25px;}
+    .one2 img{
+      position: absolute;
+      left: 919px;
+      top: 1147px;
+    }
+    .two2{
+      width: 726px;
+      display: inline-block;
+      right: 0;
+      padding-top: 116px;
+    }
+    .two2 img{
+      position: absolute;
+      left: 490px;
+      top: 1768px;
+    }
+    .two2 h3{line-height: 60px;}
+    .two2 p{margin-top: 30px;}
+    .two3{width: 254px;}
+
+    .three2{
+      width: 726px;
+      display: inline-block;
+      right: 0;
+      padding-top: 116px;
+      padding-left: 80px;
+    }
+    .three2 img{
+      position: absolute;
+      left: 919px;
+      top: 2417px;
+    }
+    .three2 h3{line-height: 60px;}
+    .three2 p{margin-top: 30px;}
+    .three3{width: 400px;}
+
+    .number{font-size: 36px;}
+
+    .four2{
+      display: inline-block;
+      padding-top: 100px;
+      padding-left: 80px;
+    }
+    .four2 p{width: 770px;}
+    .four2 h3{line-height: 60px;}
+    .four2 img{
+      position: absolute;
+      left: 919px;
+      top: 2953px;
+      }
+      .five2{
+        display: inline-block;
+        padding-top: 28px;
+        padding-left: 80px;
+      }
+      .five2 p{width: 770px;}
+      .five2 h3{line-height: 60px;}
+      .five2 img{
+        position: absolute;
+        left: 919px;
+        top: 3291px;
+      }
+      .six2{
+        display: inline-block;
+        padding-top: 40px;
+        padding-left: 80px;
+      }
+      .six2 p{width: 770px;}
+      .six2 h3{line-height: 60px;}
+      .six2 img{
+        position: absolute;
+        left: 919px;
+        top: 3629px;
+      }
+      .seven2{
+        display: inline-block;
+        padding-top: 100px;
+      }
+      .seven2 p{width: 726px;}
+      .seven2 h3{line-height: 60px;}
+
+      .table1{
+        text-align: center;
+        font-size: 22px;
+      }
+      .table1 td{
+        width: 180px;
+      }
+      .eight2{
+        display: inline-block;
+        padding-top: 100px;
+        padding-left: 110px;
+      }
+      .eight2 p{width: 726px;}
+      .eight2 h3{line-height: 60px;}
+
+      .nine2{
+        display: inline-block;
+        padding-top: 80px;
+      }
+      .nine2 p{width: 700px;
+        margin-bottom: 48px;
+        margin-right: 42px;
+      }
+      .nine2 h3{line-height: 60px;}
+
+      .futter{
+        padding-top: 36px;
+      }
+      .futter p{
+        width: 200px;
+        padding-left: 768px;
+      }
+      .futter h3{
+        width: 840px;
+        padding-left: 80px;
+      }
+      .futter img{
+        position: absolute;
+        margin-top: 50px;
+      }
+      .futter2{
+        position: absolute;
+        width: 100%;
+        height: 64px;
+        bottom: 0;
+        background: white;
+        border-top:2px solid black;
+      }
+      .f1{
+        padding-left: 80px;
+        position: absolute;
+      }
+      .f2{
+        position: absolute;
+        padding-left: 920px;
+      }
+      .table2{
+        position: absolute;
+        margin-left: 528px;
+        bottom: 4px;
+        text-align: center;
+
+      }
+      .table2 td{
+        width: 50px;
+      }
+
+  </style>
+  <body>
+    <div class="oblozhka">
+      <div class="oblozhka1">
+        <h1>Мода золотого века Голливуда</h1>
+        <h2>Античные богини 1930-х годов</h2>
+      </div>
+      <div class="oblozhka2">
+        <img src="images/1.png" alt="">
+      </div>
+    </div>
+
+    <section>
+      <div class="one1">
+        <img src="images/2.png" alt="">
+      </div>
+      <div class="one2">
+        <p>Актриса стала первой женщиной, носившей брюки в начале XX века. Кроме брюк,
+          в ее гардеробе можно было найти бесчисленное количество жакетов и жилеток в мужском стиле.
+          Такие предметы гардероба создавали образ актрисы-интеллектуалки, подчеркивая ее хрупкость и изящество.</p>
+        <h3>Кэтрин Хепбёрн</h3>
+        <p><span class="number">4</span> оскара</p>
+        <p><span class="number">52</span> фильма</p>
+        <p><span class="number">35</span> ролей в театре</p>
+        <img src="images/img1.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <div class="two2">
+        <p>Хеди любила быть эффектной в любой ситуации. Темные густые локоны,
+          длинные накрученные ресницы и чувственная помада на губах — неотъемлемые бьюти-атрибуты актрисы.
+          А одежда звезды — настоящее вдохновение для вечерних выходов. Хеди Ламарр занималась изобретательской деятельностью.</p>
+        <h3>Хеди Ламарр</h3>
+        <p class="two3"><span class="number">1</span>-я актриса, снявшаяся в эротической сцене</p>
+        <p class="two3"><span class="number">55</span> фильмов</p>
+        <img src="images/img2.png" alt="">
+      </div>
+      <div class="two1">
+        <img src="images/3.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <div class="three1">
+        <img src="images/4.png" alt="">
+      </div>
+      <div class="three2">
+        <p>Платиновая американская мечта — это реально существовавшая женщина, «звезда» и секс-символ американского кино 30-х годов.
+          Глянцевая фактура белого и серебристого атласа невероятно шла актрисе — ведь шелк прекрасно отражает свет и подсвечивает кожу, делая ее фарфоровой и свежей.</p>
+        <h3>Джин Харлоу</h3>
+        <p class="three3"><span class="number">43</span> картины</p>
+        <p class="three3"><span class="number">22</span> место на премии <br> «stars of Classic Hollywood Cinema»</p>
+        <img src="images/img3.png" alt="">
+      </div>
+    </section>
+
+    <div>
+      <div class="four2">
+        <img src="images/img4.png" alt="">
+        <h2>Легендарные модельеры</h2>
+        <h3>Эльза Скьяпарелли</h3>
+        <p>Основала свой модный дом Schiaparelli. Любое творение этой женщины становится сенсацией. В коллекции «Остановись,
+          смотри и слушай» Скиапарелли представила вечерние платья в виде дождевиков, необычайно расшитые сари, пуговицы в форме луидора — французской монеты.
+          Именно в этой коллекции в 3качестве застежки впервые была использована молния.</p>
+      </div>
+      <div class="five2">
+        <img src="images/img5.png" alt="">
+        <h3>Адриан  Гринберг</h3>
+        <p>Работая для MGM, Адриан придумал те самые красные туфли Дороти, один из главных символов старого Голливуда,
+          — в 1939 году Джуди Гарленд отправится в Изумрудный город именно в них.
+          Адриан ввёл в моду прямой силуэт и подплечники, и половина американок захотели заполучить такой же костюм, как у Джоан Кроуфорд. </p>
+      </div>
+      <div class="six2">
+        <img src="images/img6.png" alt="">
+        <h3>Габриэль Шанель</h3>
+        <p>Единственный дизайнер одежды, который вошёл в список 100 самых влиятельных людей XX века журнала Time.
+          Коко Шанель поняла, что тельняшка — это удобно и практично. Позже дизайнер начала использовать их в своих коллекциях.
+          Сегодня тельняшка считается классикой гардероба. Первая решила надеть брюки, чем возмутила мир моды.
+          Она сама спроектировала их для женской фигуры и ввела в моду. Модная общественность быстро последовала её примеру. </p>
+      </div>
+    </div>
+
+    <section>
+      <div class="seven2">
+        <h2>Стиль старого Голливуда</h2>
+        <h3>Элегантность, женственность и сексуальность!</h3>
+        <p>Добиться такого эффекта можно было с помощью платья. В те годы оно было фаворитом всех модниц.
+          Самые модные силуэты — «песочные часы» и «русалка». Длина наряда — миди или в пол.
+          Для особо торжественных случаев кинодивы выбирали туалеты со шлейфом или с открытой спиной.</p>
+        </div>
+      <div class="seven1">
+        <img src="images/5.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <div class="eight1">
+        <img src="images/6.png" alt="">
+      </div>
+      <div class="eight2">
+        <h3>Ткани</h3>
+        <table class="table1">
+          <tr>
+            <td><img src="images/t1.png" alt=""></td>
+            <td><img src="images/t2.png" alt=""></td>
+            <td><img src="images/t3.png" alt=""></td>
+            <td><img src="images/t4.png" alt=""></td>
+            <td><img src="images/t5.png" alt=""></td>
+          </tr>
+          <tr>
+            <td>Атлас</td>
+            <td>Гипюр</td>
+            <td>Парча</td>
+            <td>Ламе</td>
+            <td>Шифрон</td>
+          </tr>
+        </table>
+        <p>Отделка нарядов была под стать материалам: металлизированная нить, вышивка, стразы, пайетки. Самые трендовые оттенки — пастельные.
+        Ещё один неотъемлемый атрибут стиля «Голливуд» — это мех. Его носили и днём и вечером.
+        Очень часто мех использовали для отделки жакетов и платьев.</p>
+        </div>
+    </section>
+
+    <section>
+      <div class="nine2">
+        <h3>Макияж</h3>
+        <p>Брови делали очень тёмного цвета (даже блондинкам).
+          Кроме того существовал такой эталон: форма сдвинутых бровей должна была быть схожей с формой верхней губы.</p>
+        <p>Глаза подчёркивали при помощи стрелок. Ресницы красили очень густо или использовали накладные.</p>
+        <p>Губы красили обязательно красной помадой и  делали чёткий контур. Уголки губ сглаживали при помощи косметики.</p>
+        </div>
+      <div class="nine1">
+        <img src="images/7.png" alt="">
+      </div>
+    </section>
+
+    <div>
+      <div class="futter">
+        <h3>«Мода — это не о лейблах. И не о брендах. Это о чем-то еще, что происходит внутри нас».</h3>
+        <p>Ральф Лорен</p>
+
+        </div>
+      <div class="futter">
+        <img src="images/futter.png" alt="">
+      </div>
+      <div class="futter2">
+        <p class="f1">Василенко Надежда</p>
+        <table class="table2">
+          <tr>
+            <td><a href="https://t.me/demeetra2000"><img src="images/f1.png" alt=""></a></td>
+            <td><a href="https://vk.com/demeetra"><img src="images/f2.png" alt=""></a></td>
+            <td><a href="https://www.facebook.com/nadezhda.vasilenko.963"><img src="images/f3.png" alt=""></a></td>
+          </tr>
+        </table>
+        <p class="f2">HSE Art and Design School</p>
+      </div>
+    </div>
+  </body>
+</html>
