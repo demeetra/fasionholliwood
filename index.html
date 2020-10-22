@@ -6,19 +6,21 @@
     <title></title>
   </head>
   <style media="screen">
-  @import 'reset.css';
+  @import 'stylesheets/reset.css';
 @font-face {
     font-family: "tesseract";
     src: url("../fonts/tesseract.ttf") format('truetype');
     font-style: normal;
     font-weight: normal;
     }
-    p, h1, h2, h3 {font-family: "tesseract";}
+    p, h1, h2, h3 {font-family: "tesseract";
+    margin: 0;
+  	padding: 0;}
     body {
       width: 1280px;
       margin: 0 auto;
       background: white;
-      height: 6519px;
+      /* height: 6519px; */
       display: block;
       position: relative;
     }
@@ -42,21 +44,32 @@
     }
     .oblozhka1{
       margin-left: 80px;
+      margin-top: 380px;
       width: 728px;
       height: 739px;
       display: inline-block;
     }
-    h1{font-size: 72px;}
-    h2{font-size: 48px;}
-    h3{font-size: 36px;}
-    p{font-size: 22px;}
+    .oblozhka1 h2{
+      margin-top: 65px;
+    }
+
+    h1{font-size: 72px; line-height: 89px;}
+    h2{font-size: 48px;
+    margin-top: 146px;}
+    h3{font-size: 36px; line-height: 44px;
+    margin-top: 45px;}
+    p{font-size: 22px; line-height: 27px;
+    margin-top: 52px;}
+
 
 
     .oblozhka2{
       margin-right: 80px;
+      margin-top: 188px;
       display: inline-block;
       width: 380px;
       height: 739px;
+
     }
     section{
       margin-left: 80px;
@@ -115,7 +128,7 @@
 
     .four2{
       display: inline-block;
-      padding-top: 100px;
+      /* padding-top: 100px; */
       padding-left: 80px;
     }
     .four2 p{width: 770px;}
@@ -151,7 +164,7 @@
       }
       .seven2{
         display: inline-block;
-        padding-top: 100px;
+        /* padding-top: 100px; */
       }
       .seven2 p{width: 726px;}
       .seven2 h3{line-height: 60px;}
@@ -182,20 +195,23 @@
       .nine2 h3{line-height: 60px;}
 
       .futter{
+        /* position: absolute; */
         padding-top: 36px;
+
       }
       .futter p{
         width: 200px;
         padding-left: 768px;
+
       }
       .futter h3{
         width: 840px;
         padding-left: 80px;
       }
-      .futter img{
+      /* .futter img{
         position: absolute;
         margin-top: 50px;
-      }
+      } */
       .futter2{
         position: absolute;
         width: 100%;
@@ -203,14 +219,17 @@
         bottom: 0;
         background: white;
         border-top:2px solid black;
+        top: 6472px;
       }
       .f1{
         padding-left: 80px;
         position: absolute;
+        margin-top: 20px;
       }
       .f2{
         position: absolute;
         padding-left: 920px;
+        margin-top: 20px;
       }
       .table2{
         position: absolute;
@@ -222,10 +241,18 @@
       .table2 td{
         width: 50px;
       }
+      table {
+        margin-top: 40px;
+      }
+      .oblozhka img{
+        position: absolute;
+      }
+
 
   </style>
   <body>
     <div class="oblozhka">
+      <img src="images/img.png" alt="">
       <div class="oblozhka1">
         <h1>Мода золотого века Голливуда</h1>
         <h2>Античные богини 1930-х годов</h2>
@@ -362,13 +389,12 @@
 
     <div>
       <div class="futter">
-        <h3>«Мода — это не о лейблах. И не о брендах. Это о чем-то еще, что происходит внутри нас».</h3>
+        <h3>«Мода — это не о лейблах. И не о брендах. Это о&nbsp;чем-то еще, что происходит внутри нас».</h3>
         <p>Ральф Лорен</p>
 
         </div>
-      <div class="futter">
-        <img src="images/futter.png" alt="">
-      </div>
+          <img src="images/futter.png" alt="">
+
       <div class="futter2">
         <p class="f1">Василенко Надежда</p>
         <table class="table2">
